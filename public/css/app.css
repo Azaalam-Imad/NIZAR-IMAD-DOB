@@ -253,6 +253,7 @@
         height: 100vh;
         padding-left: 15vw ;
         transition: 1s ;
+        
     }
     #menu:checked+.links-nav{
         top: 0vh;
@@ -262,7 +263,7 @@
         color: white;
     }
     .links-nav label{
-        padding-left: 90%;
+        margin-left: 90%;
         padding-top: 30px;
     }
 /* fin nav */

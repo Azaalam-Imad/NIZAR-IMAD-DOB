@@ -189,4 +189,36 @@
     background-color: rgb(84, 7, 156);
     width: 100%;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.foot-tit{
+    margin-top: 4.5vw;
+}
+.foot-tit1{
+    color: white;
+}
+.foot-tit2{
+    font-size: 70px;
+    color: red;
+    margin-top: 1vw;
+}
+.foot-link{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin-top: 1.5vw;
+}
+.foot-link a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+.foot-link a:hover{
+    color: red;
+
 }

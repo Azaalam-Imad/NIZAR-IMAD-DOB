@@ -25,6 +25,9 @@
     color: rgb(71, 37, 226); 
     font-weight: bold;
 }
+.links-nav a:hover{
+    color: red;
+}
 .button-nav button{
     color: red;
     padding: 6px 24px;

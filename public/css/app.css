@@ -221,4 +221,17 @@
 .foot-link a:hover{
     color: red;
 
+
+}
+.foot-copirait{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-top: 7vh;
+}
+.foot-icons{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    gap: 55px;
 }

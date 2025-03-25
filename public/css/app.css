@@ -235,3 +235,35 @@
     display: flex;
     gap: 55px;
 }
+.nav1 input , .nav1 label, .links-nav label{
+    display: none;
+}
+@media (max-width: 767px){
+    /* debu nav */
+    .nav1 label{
+        display: block;
+    }
+    .links-nav{
+        flex-direction: column;
+        position: absolute;
+        top: 0vh;
+        left: -100vw;
+        background-color: rgba(0, 0, 0, 0.966);
+        width: 75vw;
+        height: 100vh;
+        padding-left: 15vw ;
+        transition: 1s ;
+    }
+    #menu:checked+.links-nav{
+        top: 0vh;
+        left: 0vw;
+    }
+    .links-nav a, .links-nav label{
+        color: white;
+    }
+    .links-nav label{
+        padding-left: 90%;
+        padding-top: 30px;
+    }
+/* fin nav */
+}

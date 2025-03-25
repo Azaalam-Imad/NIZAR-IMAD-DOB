@@ -40,3 +40,55 @@
     box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.432);
 }
 
+ 
+
+.sec1{
+   
+    
+    height: 720px;
+    display: flex;
+    align-items: center;
+}
+  
+
+.sec1-div1{
+    width:40%;
+    height: 450px;
+   
+    margin-left: 150px;
+    margin-top: 5%;
+}
+.sec1-tit1{
+    font-size: 75px;
+    color: rgb(84, 7, 156);
+}
+.sec1-pr1{
+    color: gray;
+    margin-top: 15px;
+}
+.but1{
+    background-color: red;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+}
+.but2{
+    font-size: large;
+    background:none ;
+    border: none;
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    color:rgb(84, 7, 156) ;
+    margin-left:10px ;
+}
+.sec1-but1{
+    margin-top: 40px;
+}
+.sec1-im1{
+    width: 740px;
+}

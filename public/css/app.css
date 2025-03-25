@@ -92,3 +92,54 @@
 .sec1-im1{
     width: 740px;
 }
+.sec2{
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 190px;
+    
+
+}
+.sec2-div1{
+    width: 320px;
+    height: 380px;
+    background-color: white;
+    padding-left: 2vw;
+    
+}
+.shadow{
+    box-shadow: 4px 4px 10px gray;
+
+}
+.sec2-tit1{
+    font-size:2.8vw;
+    color: rgb(84, 7, 156);
+   
+}
+.sec2-but1{
+    background-color: red;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    margin-top: 2vw;
+}
+.bg{
+    background: none;
+}
+.div-incon{
+    margin-top: 3vw;
+}
+.sec2-tit2{
+    font-size: 2.5vw;
+    margin-top: 1.5vw;
+    color: rgb(84, 7, 156);
+}
+.sec2-pr1{
+    color: gray;
+    margin-top: 1.5vw;
+}

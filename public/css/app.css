@@ -92,7 +92,6 @@
 .sec1-im1{
     width: 740px;
 }
-<<<<<<< HEAD
 .sec2{
     height: 570px;
     display: flex;
@@ -143,8 +142,7 @@
 .sec2-pr1{
     color: gray;
     margin-top: 1.5vw;
-=======
-
+}
 .sec3{
     padding-left: 150px;
     padding-bottom: 8vh;
@@ -185,5 +183,4 @@
     border-radius: 20px;
     border: none;
     font-size: large;
->>>>>>> imad
 }

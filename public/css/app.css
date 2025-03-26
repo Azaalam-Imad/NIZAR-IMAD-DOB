@@ -221,4 +221,125 @@
 .foot-link a:hover{
     color: red;
 
+
+}
+.foot-copirait{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+    margin-top: 7vh;
+}
+.foot-icons{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    gap: 55px;
+}
+.nav1 input , .nav1 label, .links-nav label{
+    display: none;
+}
+@media (max-width: 767px){
+    /*  nav */
+    .nav1 label{
+        display: block;
+    }
+    .links-nav{
+        flex-direction: column;
+        position: absolute;
+        top: 0vh;
+        left: -100vw;
+        background-color: rgba(0, 0, 0, 0.966);
+        width: 75vw;
+        height: 100vh;
+        padding-left: 15vw ;
+        transition: 1s ;
+        
+    }
+    #menu:checked+.links-nav{
+        top: 0vh;
+        left: 0vw;
+    }
+    .links-nav a, .links-nav label{
+        color: white;
+    }
+    .links-nav label{
+        margin-left: 90%;
+        padding-top: 30px;
+    }
+/* fin nav */
+/* section1 */
+.sec1{
+    flex-direction: column;
+    gap: 20px;
+}
+.sec1-div1{
+    width:70%;
+    margin: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec1-tit1{
+    padding-left: 20px;
+    padding-top: 40px;
+    font-size: 45px;
+}
+.sec1-pr1{
+    text-align: center;
+}
+.sec1-img1 img{
+    width: 80vw;
+    height: 80vh;
+}
+/* fin section1 */
+
+
+
+/* section3  */
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: unset;
+}
+.sec3 form input{
+    width: 45vw;
+}
+.sec3 form textarea{
+    width: 93vw;
+    text-align: center;
+}
+.button-sec3{
+    padding: unset;
+    padding-bottom: 30px;
+}
+
+/* fin section3 */
+}
+/* Responsive 425px  */
+@media (max-width: 425px){
+    .sec1-tit1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sec1-but1{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    
+    .sec1-but1 .but1 , .sec1-but1 .but2{
+        width: 40vw;
+        font-size: 17px;
+    }
+    .sec3 h4{
+        font-size: 20px;
+    }
+    .sec3 form input{
+        width: 93vw;
+        text-align: center;
+    }
+    .sec3 form {
+        padding-left: 10px;
+    }
 }

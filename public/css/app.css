@@ -315,3 +315,20 @@
 
 /* fin section3 */
 }
+/* Responsive 425px  */
+@media (max-width: 425px){
+    .sec1-tit1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sec1-but1{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    
+    .sec1-but1 .but1 , .sec1-but1 .but2{
+        width: 40vw;
+        font-size: 17px;
+    }
+}

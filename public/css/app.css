@@ -75,7 +75,15 @@
     border-radius: 20px;
     border: none;
     font-size: large;
+    cursor: pointer;
 }
+.hov:hover{
+    background: none;
+    border: 2px solid red;
+    color: red;
+    cursor: pointer;
+}
+
 .but2{
     font-size: large;
     background:none ;
@@ -86,6 +94,11 @@
     border-radius: 20px;
     color:rgb(84, 7, 156) ;
     margin-left:10px ;
+}
+.but2:hover{
+    background-color: rgba(128, 128, 128, 0.199);
+    cursor: pointer;
+    color: rgb(255, 2, 2);
 }
 .sec1-but1{
     margin-top: 40px;
@@ -245,6 +258,8 @@
 .nav1 input , .nav1 label, .links-nav label{
     display: none;
 }
+
+
 @media (max-width: 767px){
     /*  nav */
     .nav1 label{

@@ -307,6 +307,7 @@
 }
 .sec3 form textarea{
     width: 93vw;
+    text-align: center;
 }
 .button-sec3{
     padding: unset;
@@ -336,6 +337,7 @@
     }
     .sec3 form input{
         width: 93vw;
+        text-align: center;
     }
     .sec3 form {
         padding-left: 10px;

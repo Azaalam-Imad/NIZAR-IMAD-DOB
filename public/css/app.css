@@ -331,4 +331,13 @@
         width: 40vw;
         font-size: 17px;
     }
+    .sec3 h4{
+        font-size: 20px;
+    }
+    .sec3 form input{
+        width: 93vw;
+    }
+    .sec3 form {
+        padding-left: 10px;
+    }
 }

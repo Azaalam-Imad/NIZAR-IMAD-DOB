@@ -3,6 +3,7 @@
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
 .nav1{
     display: flex;
@@ -162,6 +163,12 @@
     height: 35px;  
     
 }
+.sec3 form textarea{
+    width: 91.5%;
+    height: 200px;
+
+
+}
 .sec3 form input, .sec3 form textarea{
     background-color: rgb(244 250 254);
     border: none; 
@@ -317,10 +324,15 @@
 /* fin section3 */
 }
 /* Responsive 425px  */
-@media (max-width: 425px){
-    .sec1-tit1{
-        font-size: 30px;
+@media (max-width: 427px){
+    .sec1{
         text-align: center;
+        margin-top: 45px;
+    }
+    .sec1-tit1{
+        font-size:x-large;
+        text-align: center;
+        padding: 0;
     }
     .sec1-but1{
         display: flex;
@@ -332,6 +344,9 @@
         width: 40vw;
         font-size: 17px;
     }
+    .sec3{
+       margin-top: 350px;
+    }
     .sec3 h4{
         font-size: 20px;
     }
@@ -341,5 +356,65 @@
     }
     .sec3 form {
         padding-left: 10px;
+    }
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding-bottom: 25px;
+        
+       
+
+    }
+    .sec2-div1{
+        width: 250px;
+        padding-bottom: 25px;
+        position: relative;
+        left: 20px;
+        
+        
+    }
+    .bg{
+        margin-top: 205px;
+
+    }
+    .sec2-div1{
+        text-align: center;
+   
+    }
+    .sec2-tit1{
+        font-size: x-large;
+    }
+    .sec2-but1{
+        margin-top: 25px;
+    }
+    .sec2-tit2{
+        font-size: x-large;
+    }
+    .foot-tit2{
+        font-size: larger;
+        margin-top: 10px;
+    }
+    .foot-link{
+        width: 400px;
+    } 
+
+    
+    .foot-link{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .foot-link a{
+        font-size: large;
+    }
+    .foot-copirait{
+        font-size: large;
+        color: rgb(160, 158, 158);
+    }
+    .foot-icons{
+        font-size: large;
+        color: rgb(160, 158, 158);
     }
 }
